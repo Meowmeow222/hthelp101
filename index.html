@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Help! </title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body style="background-color: rgb(64, 60, 73); color:rgb(223, 223, 223);">
+
+        <!-- &lt&gt -->
+        <p id="tituloInicial"> Bienvenido a la página de ayuda de HTML! </p>
+        <p id="textoInicial"> Vamos a hacer un repaso de todo lo explicado en clase para poder reforzar tus habilidades! En estos ejemplos se asume que el lector tiene conocimientos básicos sobre el funcionamineto de etiquetas y atributos. </p>
+
+        <br/>
+        <a href="#estructura"><p class="text">Estructura</p></a>
+        <a href="#enImg"><p class="text">Enlaces e imágenes</p></a>
+        <a href="#enFrag"><p class="text">Enlaces fragmentados</p></a>
+
+        <br/>
+        <br/>
+
+        <p class="title" id="estructura">Estructura html: </p>
+        <img src="estructura.PNG" id="imgEst"/>
+        <p class="text"> Como podemos observar en este ejemplo, todo documento HTML empieza con &lt!DOCTYPE html&gt. También es importante incluir la etiqueta &lthtml&gt, &ltbody&gt y &lthead&gt. </p>
+
+        <br/>
+        <br/>
+
+        <p class="title" id="enImg"> Enlaces e imágenes: </p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="cat.jpg" id="imgImg"></a>
+        <p class="text">Como podemos ver en ese ejemplo, tenemos la imágen de un lindo gatito que nos lleva a la mejor página web del mundo! Utilizamos este código para enlazarlas: </p>
+        <img src="imgEn.PNG" id="imgImg2"/>
+        <p class="copiar" onclick="copiarEnImg()">COPIAR!!!</p>
+        <p class="text">Si estás lo suficientemente atento, podrás haber observado que hay otro atributo a parte de src, que es target. Si ponemos "_blank", esto permitira que en lugar de abrirse la página web enlazada en la misma pesataña, se nos abrirá otra nueva para que no salgamos de la web en la que estamos actualmente! </p>
+
+        <br/>
+        <br/>
+
+        <p class="title" id="enFrag"> Enlaces fragmentados </p>
+        <map name="mapa">
+            <area shape="rect" coords="0,0,200,400" href="https://youtube.com" target="_blank">
+            <area shape="rect" coords="200,0,400,400" href="https://twitter.com" target="_blank">
+        </map>
+        <img src="twosides.jpg" usemap="#mapa" id="divid">
+        <p class="text"> El lado izquierdo de esta imágen nos lleva a youtube y el derecho a twitter! </p>
+        <img src="twosides.png" id="twosides">
+        <p class="copiar" onclick="copiarTwo()">COPIAR!!!</p>
+        <p class="text"> Como podemos observar, utilizamos algo llamado mapa. El atributo "shape" quiere referirse a la forma de la hitbox, y el "coords" utiliza las dos coorenadas inicales (en pixeles) y las dos coordenadas finales (en pixeles) de nuestra hitbox. Estas corresponden al 100% al tamaño en pixeles de la imágen orgilinal!</p>
+
+    </body>
+
+</html>
+
+

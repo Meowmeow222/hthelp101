@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+body {
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+#tituloInicial {
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 250%;
+}
+
+#textoInicial {
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+#imgEst {
+    height: 400px; 
+    width: 850px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+#imgImg {
+    height: 200px; 
+    width: 350px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(222, 233, 162);
+    border-width: 2px;
+}
+
+#imgImg2 {
+    height: 25px; 
+    width: 1100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+#divid {
+    height: 400px; 
+    width: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(222, 233, 162);
+    border-width: 2px;
+}
+
+#twosides {
+    height: 150px; 
+    width: 1000px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+
+.title {
+    font-family: Comfortaa;
+    color: rgb(181, 166, 194);
+    font-weight: 700;
+    font-size: 250%;
+}
+
+.text {
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.copiar {
+    font-family: Comfortaa;
+    color: aquamarine;
+    font-weight: 700;
+    font-size: 150%;
+    user-select: none;
+}
+
+.copiar:hover {
+    cursor: pointer;
+}
